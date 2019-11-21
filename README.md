@@ -1,2 +1,3 @@
 # HZS
-7 veb stranica za hakaton
+
+Zadatak za hakaton za srednjoskolce
