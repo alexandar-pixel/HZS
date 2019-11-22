@@ -1,0 +1,80 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background: url(Images/food.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 5;
+}
+nav
+{
+    padding: 16px;
+    background-color: darkred;
+}
+nav a
+{
+    color: white;
+    font-size: 22px;
+    letter-spacing: 5px;
+}
+nav a:hover
+{
+    color: white;
+}
+.signup
+{
+    align-items: center;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    margin-top: 6em;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    border-radius: 3em;
+    margin-bottom: 6em;
+}
+.signup p
+{
+    text-align: center;
+    margin-top: 1em;
+}
+.signup input
+{
+    text-align: center;
+}
+.haveaccount
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.haveaccount h3
+{
+    text-shadow: 2px 2px 2px black;
+}
+.haveaccount button
+{
+    margin-bottom: 3em;
+}
+footer
+{
+    color:black;
+    background-color: #e9ecef;
+    padding: 25px;
+    text-align: center;
+}
+footer h5
+{
+    padding-top: 36px;
+    box-sizing: border-box;
+    border-top: 2px solid darkgray;
+}
