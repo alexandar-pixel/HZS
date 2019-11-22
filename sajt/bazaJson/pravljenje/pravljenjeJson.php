@@ -3,7 +3,6 @@
 require "../bazaKonekcija.php"; # zahtevamo konekciju sa sql bazom 
 
 $sql = "SELECT * FROM koncerti"; # upit za sql bazu
-echo "123333";
 
 # ispitujemo da li je uspesna konekcija sa bazom (promenljiva $konekcija se nalazi u bazaKonekcija.php)
 if (!$baza = $konekcija->query($sql)){
