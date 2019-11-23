@@ -1,0 +1,88 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+}
+nav
+{
+    background-color: rgb(0, 132, 255);
+    
+}
+#item{
+    color: white;;
+}
+nav a:hover
+{
+    font-size: 21px;
+    
+    border-bottom: 1px solid white;
+}
+nav a
+{
+    transition: all 0.3s ease-in-out;
+}
+.navbar-brand
+{
+    font-style: bold;
+    letter-spacing: 3px;
+    padding: 1%; 
+}
+.navbar-nav
+{
+    justify-content: space-between;
+    flex-basis: 100%;
+    font-size: 16px;
+}
+
+.posalji
+{
+    align-items: center;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    margin-top: 6em;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-weight: bold;
+    border-radius: 3em;
+    margin-bottom: 6em;
+}
+.posalji p
+{
+    text-align: center;
+    margin-top: 1em;
+}
+.posalji input
+{
+    text-align: center;
+}
+.haveaccount
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.haveaccount h3
+{
+    text-shadow: 2px 2px 2px black;
+}
+.haveaccount button
+{
+    margin-bottom: 3em;
+}
+footer
+{
+    color:black;
+    background-color: #e9ecef;
+    padding: 25px;
+    text-align: center;
+}
+footer h5
+{
+    padding-top: 36px;
+    box-sizing: border-box;
+    border-top: 2px solid darkgray;
+}
+
