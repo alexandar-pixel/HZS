@@ -35,8 +35,8 @@ nav a
 
 .istaknuto{
     
-    padding-left:17%;
-    padding-right:17%;
+    padding-left:15%;
+    padding-right:15%;
     
     padding-bottom: 15%;
     width: 100%;
@@ -44,8 +44,8 @@ nav a
 
 .aktuelno{
     background-color:rgb(65, 151, 231);
-    margin-left:17%;
-    margin-right:17%;
+    margin-left:15%;
+    margin-right:15%;
     margin-top: 3%;
 }
 .aktuelno1{
@@ -96,5 +96,7 @@ hr.style-four {
     font-style: normal;
     font-variant: normal;
     text-transform: none;
-
 }
+
+
+

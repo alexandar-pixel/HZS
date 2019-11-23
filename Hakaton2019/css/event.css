@@ -1,0 +1,127 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+}
+nav
+{
+    background-color: rgb(0, 132, 255);
+    
+}
+#item{
+    color: white;;
+}
+nav a:hover
+{
+    font-size: 21px;
+    
+    border-bottom: 1px solid white;
+}
+nav a
+{
+    transition: all 0.3s ease-in-out;
+}
+.navbar-brand
+{
+    font-style: bold;
+    letter-spacing: 3px;
+    padding: 1%; 
+}
+.navbar-nav
+{
+    justify-content: space-between;
+    flex-basis: 100%;
+    font-size: 16px;
+}
+.jumbotron
+{
+    background: transparent;
+}
+.arrange
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.left
+{
+    min-width: 70%;
+}
+.right
+{
+    margin-top: 2em;
+    text-align: left;
+    padding-right: 2em;
+}
+.resturant
+{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 16px;
+    max-width: 70em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.resturant img
+{
+    width: 12em;
+    height: 12em;
+}
+.description
+{
+    list-style-type: none;
+    padding: 12px;
+}
+
+.ordering
+{
+    margin-left: auto;
+}
+
+.about h2
+{
+    padding: 16px;
+    color: white;
+    background-color: black;
+}
+.about p
+{
+    font-size: 1.25em;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    padding: 16px;
+}
+
+@media only screen and (max-width: 765px) 
+{
+    .arrange
+    {
+        flex-direction: column;
+    }
+    .right
+    {
+        padding: 16px;
+        text-align: center;
+    }
+    .resturant
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+    .resturant img
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .links ul
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 6px;
+    }
+    .links li
+    {
+        text-align: center;
+        padding: 12px;
+    }
+}
