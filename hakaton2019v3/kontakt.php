@@ -47,10 +47,10 @@
                     <a class="nav-link" href="izlozbe.html" id = "item">Izložbe</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="meetup.html" id = "item">MeetUP</a>
+                    <a class="nav-link" href="filmovi.html" id = "item">Filmovi</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="filmovi.html" id = "item">Filmovi</a>
+                    <a class="nav-link" href="organizuj.html" id = "item">Organizuj Event</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#" id = "item">Kontakt</a>

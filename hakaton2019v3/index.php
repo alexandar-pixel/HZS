@@ -116,31 +116,51 @@
             </div>
    
     </div>
-    <h1 class="koncertiH1">KONCERTI</h1>
-    <hr class="style-four">
-    <br>
-    <br>
-    <br>
-    <h1 class="koncertiH1">IZLOŽBE</h1>
-    <hr class="style-four">
-    <br>
-    <br>
-    <br>
-    <h1 class="koncertiH1">POZORIŠTE</h1>
-    <hr class="style-four">
-    <br>
-    <br>
-    <br>
-    <h1 class="koncertiH1">MEET UP</h1>
-    <hr class="style-four">
-    <br>
-    <br>
-    <br>
-    <h1 class="koncertiH1">FILMOVI</h1>
-    <hr class="style-four">
-    <br>
-    <br>
-    <br>
+
+    <div class="onama">
+        <h1>O NAMA</h1>
+        <div class="podonama">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis corporis iusto beatae tempora accusamus nam reiciendis blanditiis fugit voluptatem facilis autem totam unde deserunt corrupti cupiditate, nesciunt voluptas fuga? Nesciunt?
+            Neque sapiente quisquam cum officia laboriosam provident ratione quia, laudantium id laborum hic dolorem odit rem eius asperiores omnis alias assumenda ad nihil minima quas iusto maxime odio. Consequatur, soluta.
+            Nobis, numquam corporis? Dolorem, omnis ipsam pariatur dolor deleniti, incidunt fuga porro exercitationem reiciendis ipsa repellendus cumque tempora illum sequi quisquam voluptates saepe dicta harum nobis eaque officiis quo. Temporibus?
+            Quisquam provident assumenda eaque tempora eveniet, nesciunt laboriosam asperiores molestiae explicabo. Officiis asperiores eos distinctio dolores ratione fugit, consequatur maxime consectetur et nobis quia tempore neque tempora iure. Quia, nemo.
+            Ipsam, non! Iure adipisci sequi molestiae explicabo minima nobis, eligendi architecto numquam tempora quos? Modi, unde autem? Consequuntur quia at veniam id hic eum est minus nisi facere. Aspernatur, reiciendis.
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="images/concert.jpg" class="image" alt="" style="width:100%; height: 100%;">
+                <div class="middle">
+                    <div class="text"><a class="btn btn-primary" href="koncerti.html" role="button">Koncerti</a></button></div>
+                </div>
+            </div>
+            <div class="column">
+                <img src="images/theater.jpg" class="image" alt="" style="width:100%; height: 100%;">
+                <div class="middle">
+                    <div class="text"><a class="btn btn-primary" href="pozoriste.html" role="button">Pozorišta</a></button></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img src="images/filmfestival.jpg" class="image" alt="" style="width:100%; height: 100%;">
+                <div class="middle">
+                    <div class="text"><a class="btn btn-primary" href="filmovi.html" role="button">Filmovi</a></button></div>
+                </div>
+            </div>
+            <div class="column">
+                <img src="images/izlozba.jpg" class="image" alt="" style="width:100%; height: 100%;">
+                <div class="middle">
+                    <div class="text"><a class="btn btn-primary" href="izlozbe.html" role="button">Izložbe</a></button></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+
+    
+
 
     <footer class="page-footer font-small blue">
         <div class="footer-copyright text-center py-3" style="background-color: rgb(0, 132, 255)">© 2019 Copyright:
